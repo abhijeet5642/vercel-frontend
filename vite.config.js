@@ -8,6 +8,9 @@ import { fileURLToPath, URL } from 'url'
 export default defineConfig({
   plugins: [react(),
     tailwindcss(), ],
+   server: {
+    historyApiFallback: true
+  }
    
  
 })
